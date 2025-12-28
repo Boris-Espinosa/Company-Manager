@@ -1,28 +1,16 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
     "noEmit": true,
     "allowImportingTsExtensions": true,
+    "target": "ES2020",
+    "module": "commonjs",
     "outDir": "./dist",
     "rootDir": "./src",
-    "sourceMap": true,
-    "module": "commonjs",
-    "target": "es5",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "resolveJsonModule": true,
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-        "dom",
-        "es2017"
-    ]
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "exclude": [
-    "dist",
-    "build",
-    "node_modules"
-  ],
-
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
