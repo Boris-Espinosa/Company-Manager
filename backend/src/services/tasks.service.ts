@@ -1,1 +1,11 @@
-export class TasksService {}
+export class TasksService {
+  create = async () => {};
+
+  getAll = async () => {};
+
+  getOne = async () => {};
+
+  update = async () => {};
+
+  delete = async () => {};
+}

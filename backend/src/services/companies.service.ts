@@ -1,3 +1,11 @@
-import "dotenv/config";
+export class CompaniesService {
+  create = async () => {};
 
-export class CompaniesService {}
+  getAll = async () => {};
+
+  getOne = async () => {};
+
+  update = async () => {};
+
+  delete = async () => {};
+}

@@ -1,0 +1,15 @@
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "name": "test2",
+  "email": "test2@gmail.com",
+  "password": "test2"
+}
+###
+PATCH http://localhost:3000/api/users/1
+Content-Type: application/json
+
+{
+  "email": "test2@gmail.com"
+}
